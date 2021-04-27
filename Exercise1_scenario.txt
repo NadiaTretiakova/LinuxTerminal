@@ -33,9 +33,9 @@
    The most frequently used commands to navigate through the file content:
 Command	         |Action
 Down arrow, 
-Enter, e, j	     |Move forward one line.
+Enter, e, j	 |Move forward one line.
 Up arrow, y, k	 |Move backward one line.
-Space bar or f   |Move Forward one page.
+Space bar or f    |Move Forward one page.
 b	             |Move Backward one page.
 n	             |Repeat previous search.
 N	             |Repeat previous search in reverse direction.
