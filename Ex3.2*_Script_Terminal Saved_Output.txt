@@ -1,0 +1,23 @@
+Last login: Wed Apr 28 16:36:54 on ttys000
+nadatretakova@air-nada-2 ~ % bash /Users/nadatretakova/Desktop/Group-18/Linux_terminal/Script.sh
+total 0
+drwxr-xr-x  10 nadatretakova  staff  320 28 Apr 16:40 .
+drwxr-xr-x  13 nadatretakova  staff  416 28 Apr 16:40 ..
+-rw-r--r--   1 nadatretakova  staff    0 28 Apr 16:40 File1.txt
+-rw-r--r--   1 nadatretakova  staff    0 28 Apr 16:40 File2.txt
+-rw-r--r--   1 nadatretakova  staff    0 28 Apr 16:40 File3.txt
+-rw-r--r--   1 nadatretakova  staff    0 28 Apr 16:40 File4.json
+-rw-r--r--   1 nadatretakova  staff    0 28 Apr 16:40 File5.json
+drwxr-xr-x   2 nadatretakova  staff   64 28 Apr 16:40 Folder1.1
+drwxr-xr-x   2 nadatretakova  staff   64 28 Apr 16:40 Folder1.2
+drwxr-xr-x   2 nadatretakova  staff   64 28 Apr 16:40 Folder1.3
+nadatretakova@air-nada-2 ~ % 
+
+
+
+
+
+
+
+
+

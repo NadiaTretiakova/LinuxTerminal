@@ -1,0 +1,21 @@
+1) Send an HTTP request to the server https://api.quarantine.country/api/v1/regions
+
+air-nada-2:~ nadatretakova$ curl --head https://api.quarantine.country/api/v1/regions
+HTTP/2 200 
+server: nginx
+content-type: application/json
+vary: Accept-Encoding
+cache-control: no-cache, private
+date: Tue, 27 Apr 2021 20:36:16 GMT
+access-control-allow-origin: *
+access-control-allow-methods: POST, GET, OPTIONS, PUT, DELETE
+access-control-allow-credentials: true
+access-control-max-age: 86400
+access-control-allow-headers: Content-Type, Authorization, X-Requested-With
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 59
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+
+ 
