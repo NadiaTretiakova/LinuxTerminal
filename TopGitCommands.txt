@@ -63,6 +63,8 @@ git add -A
 
 The git add command doesn't change the repository and the changes are not saved until we use git commit.
 
+======================================================================
+
 6. Git commit
 This is maybe the most-used command of Git. Once we reach a certain point in development, we want to save our changes (maybe after a specific task or issue).
 
@@ -72,6 +74,8 @@ We also need to write a short message to explain what we have developed or chang
 
 git commit -m "commit message"
 Important: Git commit saves your changes only locally.
+
+======================================================================
 
 7. Git push
 After committing your changes, the next thing you want to do is send your changes to the remote server. Git push uploads your commits to the remote repository.
@@ -85,4 +89,12 @@ or
 git push -u origin <branch_name>
 Important: Git push only uploads changes that are committed.
 
+======================================================================
+
+8. Git pull
+The git pull command is used to get updates from the remote repo. This command is a combination of git fetch and git merge which means that, when we use git pull, it gets the updates from remote repository (git fetch) and immediately applies the latest changes in your local (git merge).
+
+git pull <remote>
+
+======================================================================
 
