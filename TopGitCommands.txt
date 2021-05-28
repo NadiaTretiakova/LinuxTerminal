@@ -98,3 +98,18 @@ git pull <remote>
 
 ======================================================================
 
+9. Git revert
+Sometimes we need to undo the changes that we've made. There are various ways to undo our changes locally or remotely (depends on what we need), but we must carefully use these commands to avoid unwanted deletions.
+
+A safer way that we can undo our commits is by using git revert. To see our commit history, first we need to use git log -- oneline:
+
+Then we just need to specify the hash code next to our commit that we would like to undo:
+
+git revert 3321844
+After this, you will see a screen like below - just press shift + q to exit:
+
+The Git revert command will undo the given commit, but will create a new commit without deleting the older one:
+The advantage of using git revert is that it doesn't touch the commit history. This means that you can still see all of the commits in your history, even the reverted ones. 
+
+Another safety measure here is that everything happens in our local system unless we push them to the remote repo. That's why git revert is safer to use and is the preferred way to undo our commits.
+
