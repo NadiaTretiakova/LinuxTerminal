@@ -113,3 +113,23 @@ The advantage of using git revert is that it doesn't touch the commit history. T
 
 Another safety measure here is that everything happens in our local system unless we push them to the remote repo. That's why git revert is safer to use and is the preferred way to undo our commits.
 
+======================================================================
+
+10. Git merge
+When you've completed development in your branch and everything works fine, the final step is merging the branch with the parent branch (dev or master). This is done with the git merge command.
+
+Git merge basically integrates your feature branch with all of its commits back to the dev (or master) branch. It's important to remember that you first need to be on the specific branch that you want to merge with your feature branch.
+
+For example, when you want to merge your feature branch into the dev branch:
+
+First you should switch to the dev branch:
+
+git checkout dev
+Before merging, you should update your local dev branch:
+
+git fetch
+Finally, you can merge your feature branch into dev:
+
+git merge <branch-name>
+Hint: Make sure your dev branch has the latest version before you merge your branches, otherwise you may face conflicts or other unwanted problems.
+
